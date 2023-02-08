@@ -1,0 +1,60 @@
+/* TODO: design your profile with CSS */
+body {
+  background-color: #F7F9FC;
+  color: #575F7D;
+}
+
+div {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #575F7D;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#btn-blue {
+  background-color: #6B72E1;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+#btn-blue:hover {
+  background-color: #000;
+}
+
+.list-items {
+  list-style: none;
+  padding: 0;
+}
+
+.list-items li {
+  display: inline;
+}
+
+.list-items li i {
+  font-size: 30px;
+  color: gray;
+}
